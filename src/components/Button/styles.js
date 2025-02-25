@@ -12,7 +12,7 @@ export const ButtonContainer = styled.button`
   font-weight: 900;
   cursor: pointer;
   transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
-  margin-top: 24px;
+  margin-top: 2px;
   flex: 1;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 

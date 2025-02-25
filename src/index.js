@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { GlobalStyle } from "./global";
+import { GlobalStyle } from "./global/global";
 
 
 

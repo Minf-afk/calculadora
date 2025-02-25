@@ -1,12 +1,12 @@
+import { InputContainer, Placeholder } from "./styles";
 
 const Input = () => {
-    return (
-      <div className="App">
-       <h1>Olá mundo</h1>
-      </div>
-    );
-  }
-  
-  export default Input;
-  
-  
+  return (
+    <InputContainer>
+      <Placeholder />
+    </InputContainer>
+  );
+};
+
+export default Input;
+

@@ -1,11 +1,27 @@
 import styled from "styled-components";
 
-export const Input = styled.div`
+export const InputContainer = styled.div`
   width: 100%;
-  height: 60px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 0 24px;
-  font-size: 16px;
+  height: 75px;
+  border: 2px solid #000;
+  border-radius: 3px;
+  
+  font-size: 24px;
   margin-bottom: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  font-family: "Poppins", sans-serif;
+`;
+
+export const Placeholder = styled.input`
+  width: 100%;
+  height: 100%;
+  padding: 0 24px;
+  border: none;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  text-align: right;
 `;

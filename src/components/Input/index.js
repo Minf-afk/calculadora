@@ -3,7 +3,7 @@ import { InputContainer, Placeholder } from "./styles";
 const Input = () => {
   return (
     <InputContainer>
-      <Placeholder />
+      <Placeholder disabled/>
     </InputContainer>
   );
 };

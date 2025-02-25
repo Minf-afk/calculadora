@@ -5,9 +5,8 @@ export const InputContainer = styled.div`
   height: 75px;
   border: 2px solid #000;
   border-radius: 3px;
-  
-  font-size: 24px;
-  margin-bottom: 16px;
+
+  margin-bottom: 1px;
 
   display: flex;
   align-items: center;
@@ -17,6 +16,7 @@ export const InputContainer = styled.div`
 `;
 
 export const Placeholder = styled.input`
+border-radius: 3px;
   width: 100%;
   height: 100%;
   padding: 0 24px;
